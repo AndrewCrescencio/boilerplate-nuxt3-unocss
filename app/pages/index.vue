@@ -6,7 +6,7 @@ const online = useOnline()
   <div>
     <Suspense>
       <ClientOnly>
-        <section class="mx-auto container">
+        <section class="mx-auto container px-4">
           <p v-if="online">
             Oi amigo
           </p>
